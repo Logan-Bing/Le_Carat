@@ -1,0 +1,23 @@
+
+
+#contact{
+  margin: auto;
+  max-width: fit-content;
+  max-width: 60%;
+}
+
+#contact h1,
+#contact .p_contact__header{
+  text-align: center;
+}
+
+.contact__form{
+  display: flex;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
