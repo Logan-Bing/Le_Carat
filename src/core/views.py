@@ -13,8 +13,8 @@ def index(request):
     else:
         form = ContactForm()
 
-    return render(request, "core/contact.html", {'form': form})
+    return render(request, "home.html", {'form': form})
 
 def success_view(request, customer_id):
     customer = get_object_or_404(Customer, id=customer_id)
-    return render(request, "core/success.html", {"customer": customer})
+    return render(request, "sections/success.html", {"customer": customer})

@@ -1,13 +1,16 @@
 <section id="contact">
 
   <div class="contact__header">
-    <h1>Newsletter</h1>
+    <div class="contact_title">
+      <h1>Newsletter</h1>
+      <div class="line"></div>
+    </div>
     <p class="p_contact__header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id purus at magna mattis tempus. Curabitur hendrerit sem aliquam nulla pharetra posuere. Curabitur </p>
   </div>
 
-  <div class="form">
-    <form method="POST" class="contact__form">
-      {% csrf_token %}
+  <form method="POST">
+    {% csrf_token %}
+    <div class="contact__form">
       <div class="form-group">
           <label for="id_first_name">Prénom</label>
           {{ form.first_name }}
@@ -24,8 +27,9 @@
           <label for="id_email">Email</label>
           {{ form.email }}
       </div>
-      <button type="submit">Envoyer</button>
-    </form>
-  </div>
-  
+      <button type="submit" class="form_button">Envoyer</button>
+    </div>
+  </form>
+
+
 </section>
