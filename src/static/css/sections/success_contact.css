@@ -1,0 +1,25 @@
+body.success-page{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact_success {
+  margin: 0 auto;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact_success_header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.back_home_button{
+  text-decoration: underline;
+}
