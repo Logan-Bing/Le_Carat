@@ -1,4 +1,7 @@
 @import "sections/contact.css";
 @import "sections/success_contact.css";
+@import "sections/hero.css";
 
-@import "reset.css"
+@import "reset.css";
+@import "components/button.css";
+@import "components/config.css";
